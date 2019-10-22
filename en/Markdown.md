@@ -235,16 +235,20 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
-```markdown
-[Link Text](URL)
+A [link](https://dookbook.info/) here.
 
-[Link Text](URL "Tip Text")
+A [link](https://dookbook.info/ "Dookbook Homepage") here.
+
+```markdown
+A [link](https://dookbook.info/) here.
+
+A [link](https://dookbook.info/ "Dookbook Homepage") here.
 ```
 
 ```html
-<a href="URL">Link Text</a>
+A <a href="https://dookbook.info/">link</a> here.
 
-<a href="URL" title="Tip Text">Link Text</a>
+A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 ```
 
 ## Image

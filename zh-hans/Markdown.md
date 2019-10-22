@@ -233,16 +233,20 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
-```markdown
-[链接文字](URL)
+此处有[链接](https://dookbook.info/)。
 
-[链接文字](URL "提示文字")
+此处有[链接](https://dookbook.info/ "Dookbook主页")。
+
+```markdown
+此处有[链接](https://dookbook.info/)。
+
+此处有[链接](https://dookbook.info/ "Dookbook主页")。
 ```
 
 ```html
-<a href="URL">链接文字</a>
+此处有<a href="https://dookbook.info/">链接</a>。
 
-<a href="URL" title="提示文字">链接文字</a>
+此处有<a href="https://dookbook.info/" title="Dookbook主页">链接</a>。
 ```
 
 ## 图片
