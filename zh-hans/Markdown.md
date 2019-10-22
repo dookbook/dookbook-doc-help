@@ -404,6 +404,12 @@ As Kanye West said:
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+
 ```markdown
 The HTML specification
 is maintained by the W3C.
