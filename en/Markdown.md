@@ -235,16 +235,20 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
-```markdown
-[Link Text](URL)
+A [link](https://dookbook.info/) here.
 
-[Link Text](URL "Tip Text")
+A [link](https://dookbook.info/ "Dookbook Homepage") here.
+
+```markdown
+A [link](https://dookbook.info/) here.
+
+A [link](https://dookbook.info/ "Dookbook Homepage") here.
 ```
 
 ```html
-<a href="URL">Link Text</a>
+A <a href="https://dookbook.info/">link</a> here.
 
-<a href="URL" title="Tip Text">Link Text</a>
+A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 ```
 
 ## Image
@@ -265,6 +269,14 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+<!-- markdownlint-disable MD031 -->
+```markdown
+```markdown
+`code here`
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
 ```markdown
 `code here`
 ```
@@ -281,6 +293,11 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
+
+| Name | Description | Hot |
+| ------------- | --- | --- |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
 
 ```markdown
 | Name | Description | Hot |
@@ -323,6 +340,11 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+| Name | Description (centered) | Hot (right-aligned) |
+| ------------- | :---: | ---: |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
+
 ```markdown
 <!-- Colons can be used to align columns: right-aligned, centered, and neat -->
 
@@ -361,6 +383,11 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
 ```markdown
 As Kanye West said:
 
@@ -380,6 +407,12 @@ As Kanye West said:
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+
 ```markdown
 The HTML specification
 is maintained by the W3C.
@@ -397,6 +430,10 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
+
+```python
+print ('Hello world')
+``` // end
 
 <!-- markdownlint-disable MD031 -->
 ```markdown

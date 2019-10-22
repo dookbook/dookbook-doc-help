@@ -233,16 +233,20 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
-```markdown
-[链接文字](URL)
+此处有[链接](https://dookbook.info/)。
 
-[链接文字](URL "提示文字")
+此处有[链接](https://dookbook.info/ "Dookbook主页")。
+
+```markdown
+此处有[链接](https://dookbook.info/)。
+
+此处有[链接](https://dookbook.info/ "Dookbook主页")。
 ```
 
 ```html
-<a href="URL">链接文字</a>
+此处有<a href="https://dookbook.info/">链接</a>。
 
-<a href="URL" title="提示文字">链接文字</a>
+此处有<a href="https://dookbook.info/" title="Dookbook主页">链接</a>。
 ```
 
 ## 图片
@@ -263,6 +267,14 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+<!-- markdownlint-disable MD031 -->
+```markdown
+```markdown
+`code here`
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
 ```markdown
 `code here`
 ```
@@ -279,6 +291,11 @@ _这也是次强调文字，斜体_
 
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
+
+| 名称 | 描述 | 热度 |
+| ------------- | --- | --- |
+| 帮助 | 显示帮助窗口。| 5 |
+| **关闭** | *关闭*一个`窗口` | 1000 |
 
 ```markdown
 | 名称 | 描述 | 热度 |
@@ -320,6 +337,11 @@ _这也是次强调文字，斜体_
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+| 名称 | 描述 (居中) | 热度 (右对齐) |
+| ------------- | :---: | ---: |
+| 帮助 | 显示帮助窗口。| 5 |
+| **关闭** | *关闭*一个`窗口` | 1000 |
+
 ```markdown
 <!-- 冒号可以用来对齐列：右对齐，居中 -->
 
@@ -358,6 +380,11 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
 ```markdown
 As Kanye West said:
 
@@ -377,6 +404,12 @@ As Kanye West said:
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+
 ```markdown
 The HTML specification
 is maintained by the W3C.
@@ -394,6 +427,10 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
+
+```python
+print ('Hello world')
+``` // end
 
 <!-- markdownlint-disable MD031 -->
 ```markdown
