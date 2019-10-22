@@ -704,6 +704,20 @@ H~2~O = water
 <p>H<sub>2</sub>O = water</p>
 ```
 
+## 元数据
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+TOPIC: python
+AUTHORS: contributor; contributor@dookbook.info; github:dookbook;
+
+# Heading 1
+
+body text here
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
