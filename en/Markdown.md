@@ -58,6 +58,11 @@ Paragraph 2
 
 ### Unordered List
 
+- Item 1
+  - Item 1.1
+  - Item 1.2
+- Item 2
+
 ```markdown
 - Item 1
   - Item 1.1
@@ -78,9 +83,12 @@ Paragraph 2
 
 ### Ordered List
 
+1. Item 1
+2. Item 2
+
 ```markdown
 1. Item 1
-1. Item 2
+2. Item 2
 ```
 
 ```html
@@ -91,6 +99,13 @@ Paragraph 2
 ```
 
 ### Definition List
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
 
 ```markdown
 Apple
@@ -118,6 +133,10 @@ Orange
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+This text will be **bold**
+
+This will also be __bold__
+
 ```markdown
 This text will be **bold**
 
@@ -134,6 +153,12 @@ This will also be <strong>bold</strong>
 
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
+
+<!-- markdownlint-disable MD036 -->
+*This text will be italic*
+
+_This will also be italic_
+<!-- markdownlint-enable MD036 -->
 
 ```markdown
 *This text will be italic*
@@ -152,6 +177,8 @@ _This will also be italic_
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+~~Deleted Text~~
+
 ```markdown
 ~~Deleted Text~~
 ```
@@ -165,6 +192,8 @@ _This will also be italic_
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+++Inserted Text++
+
 ```markdown
 ++Inserted Text++
 ```
@@ -177,6 +206,8 @@ _This will also be italic_
 
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
+
+Combined emphasis with **asterisks and _underscores_**.
 
 ```markdown
 Combined emphasis with **asterisks and _underscores_**.
