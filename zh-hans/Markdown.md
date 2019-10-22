@@ -742,6 +742,24 @@ body text here
 - [ ] 未完成
 ```
 
+### 键盘输入
+
+演示示例：
+
+!!!Ctrl!!! + !!!C!!!
+
+**Markdown**输入：
+
+```markdown
+!!!Ctrl!!! + !!!C!!!
+```
+
+**HTML**输出：
+
+```html
+<kbd>Ctrl</kbd> + <kbd>C</kbd>
+```
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

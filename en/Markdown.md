@@ -745,6 +745,24 @@ Demo:
 - [ ] this is an incomplete item
 ```
 
+### Keyboard Input
+
+Demo:
+
+!!!Ctrl!!! + !!!C!!!
+
+**Markdown** Input:
+
+```markdown
+!!!Ctrl!!! + !!!C!!!
+```
+
+**HTML** Output:
+
+```html
+<kbd>Ctrl</kbd> + <kbd>C</kbd>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
