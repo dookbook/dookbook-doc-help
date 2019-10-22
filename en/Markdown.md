@@ -69,16 +69,16 @@ Paragraph 2
 Demo:
 
 - Item 1
-  - Item 1.1
-  - Item 1.2
+    - Item 1.1
+    - Item 1.2
 - Item 2
 
 **Markdown** Input:
 
 ```markdown
 - Item 1
-  - Item 1.1
-  - Item 1.2
+    - Item 1.1
+    - Item 1.2
 - Item 2
 ```
 
@@ -705,6 +705,62 @@ H~2~O = water
 
 ```html
 <p>H<sub>2</sub>O = water</p>
+```
+
+## Meta Data
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+TOPIC: python
+AUTHORS: contributor; contributor@dookbook.info; github:dookbook;
+
+# Heading 1
+
+body text here
+```
+
+## Task List
+
+!!! warn "GitHub Flavored Markdown"
+    This is the *GitHub Flavored Markdown* syntax.
+
+!!! error "Unsupported Syntax"
+    *Dookbook Markdown* does **NOT** support for this syntax.
+
+Demo:
+
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] list syntax is required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+**Markdown** Input:
+
+```markdown
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] list syntax is required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
+### Keyboard Input
+
+Demo:
+
+!!!Ctrl!!! + !!!C!!!
+
+**Markdown** Input:
+
+```markdown
+!!!Ctrl!!! + !!!C!!!
+```
+
+**HTML** Output:
+
+```html
+<kbd>Ctrl</kbd> + <kbd>C</kbd>
 ```
 
 ## References

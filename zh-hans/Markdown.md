@@ -66,16 +66,16 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 演示示例：
 
 - 列表项目 1
-  - 列表项目 1.1
-  - 列表项目 1.2
+    - 列表项目 1.1
+    - 列表项目 1.2
 - 列表项目 2
 
 **Markdown**输入:
 
 ```markdown
 - 列表项目 1
-  - 列表项目 1.1
-  - 列表项目 1.2
+    - 列表项目 1.1
+    - 列表项目 1.2
 - 列表项目 2
 ```
 
@@ -686,7 +686,7 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 ## 下标
 
 !!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+    此为*Dookbook Markdown*语法。
 
 演示示例：
 
@@ -702,6 +702,62 @@ H~2~O = water
 
 ```html
 <p>H<sub>2</sub>O = water</p>
+```
+
+## 元数据
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+```markdown
+TOPIC: python
+AUTHORS: contributor; contributor@dookbook.info; github:dookbook;
+
+# Heading 1
+
+body text here
+```
+
+## Task List 任务清单
+
+!!! warn "GitHub Flavored Markdown"
+    此为*GitHub Flavored Markdown*语法。
+
+!!! error "语法不支持"
+    *Dookbook Markdown*暂时不支持该语法。
+
+演示示例：
+
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] 已完成
+- [x] 已完成
+- [ ] 未完成
+
+**Markdown**输入：
+
+```markdown
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] 已完成
+- [x] 已完成
+- [ ] 未完成
+```
+
+### 键盘输入
+
+演示示例：
+
+!!!Ctrl!!! + !!!C!!!
+
+**Markdown**输入：
+
+```markdown
+!!!Ctrl!!! + !!!C!!!
+```
+
+**HTML**输出：
+
+```html
+<kbd>Ctrl</kbd> + <kbd>C</kbd>
 ```
 
 ## 参考资料
