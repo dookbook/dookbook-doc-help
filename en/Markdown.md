@@ -294,6 +294,11 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+| Name | Description | Hot |
+| ------------- | --- | --- |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
+
 ```markdown
 | Name | Description | Hot |
 | ------------- | --- | --- |
@@ -334,6 +339,11 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
+
+| Name | Description (centered) | Hot (right-aligned) |
+| ------------- | :---: | ---: |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
 
 ```markdown
 <!-- Colons can be used to align columns: right-aligned, centered, and neat -->
