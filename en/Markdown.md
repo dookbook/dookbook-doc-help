@@ -459,6 +459,19 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 <p>This is a admonition box without a title.</p>
 ```
 
+## Superscript
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+2^10^=1024
+```
+
+```html
+<p>2<sup>10</sup>=1024</p>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
