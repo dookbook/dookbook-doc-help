@@ -431,6 +431,10 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+```python
+print ('Hello world')
+``` // end
+
 <!-- markdownlint-disable MD031 -->
 ```markdown
 ```python
