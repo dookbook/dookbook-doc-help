@@ -463,12 +463,29 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+2^10^=1024
+
 ```markdown
 2^10^=1024
 ```
 
 ```html
 <p>2<sup>10</sup>=1024</p>
+```
+
+## 下标
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+H~2~O = water
+
+```markdown
+H~2~O = water
+```
+
+```html
+<p>H<sub>2</sub>O = water</p>
 ```
 
 ## 参考资料
