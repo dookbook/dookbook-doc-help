@@ -55,6 +55,11 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 
 ### 无序列表
 
+- 列表项目 1
+  - 列表项目 1.1
+  - 列表项目 1.2
+- 列表项目 2
+
 ```markdown
 - 列表项目 1
   - 列表项目 1.1
@@ -75,9 +80,12 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 
 ### 有序列表
 
+1. 列表项目 1
+2. 列表项目 2
+
 ```markdown
 1. 列表项目 1
-1. 列表项目 2
+2. 列表项目 2
 ```
 
 ```html
@@ -88,6 +96,13 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 ```
 
 ### 定义列表
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
 
 ```markdown
 Apple
@@ -118,6 +133,8 @@ Orange
 !!! warn
     双下划线`__`不支持中文!
 
+这是**强调文字**
+
 ```markdown
 这是**强调文字**
 
@@ -134,6 +151,12 @@ Orange
 
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
+
+<!-- markdownlint-disable MD036 -->
+*次强调文字， 斜体*
+
+_这也是次强调文字，斜体_
+<!-- markdownlint-enable MD036 -->
 
 ```markdown
 *次强调文字， 斜体*
@@ -152,6 +175,8 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+~~删除的文字~~
+
 ```markdown
 ~~删除的文字~~
 ```
@@ -165,6 +190,8 @@ _这也是次强调文字，斜体_
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+++插入的文字++
+
 ```markdown
 ++插入的文字++
 ```
@@ -177,6 +204,8 @@ _这也是次强调文字，斜体_
 
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
+
+混合的文本**强调和 _斜体_**.
 
 ```markdown
 混合的文本**强调和 _斜体_**.
@@ -456,6 +485,36 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 
 <div class="admonition important">
 <p>This is a admonition box without a title.</p>
+```
+
+## 上标
+
+!!! warn "Dookbook Markdown"
+    此为*Dookbook Markdown*语法。
+
+2^10^=1024
+
+```markdown
+2^10^=1024
+```
+
+```html
+<p>2<sup>10</sup>=1024</p>
+```
+
+## 下标
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+H~2~O = water
+
+```markdown
+H~2~O = water
+```
+
+```html
+<p>H<sub>2</sub>O = water</p>
 ```
 
 ## 参考资料
