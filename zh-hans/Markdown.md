@@ -16,7 +16,7 @@ Markdown语言在2004由*约翰·格鲁伯*创建。
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
-Markdown:
+**Markdown**输入:
 
 ```markdown
 # 一级标题
@@ -26,7 +26,7 @@ Markdown:
 ### 三级标题
 ```
 
-HTML:
+**HTML**输出:
 
 ```html
 <h1>一级标题</h1>
@@ -41,7 +41,7 @@ HTML:
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
-Markdown:
+**Markdown**输入:
 
 ```markdown
 段落1
@@ -49,7 +49,7 @@ Markdown:
 段落2
 ```
 
-HTML:
+**HTML**输出:
 
 ```html
 <p>段落1</p>
@@ -63,10 +63,14 @@ HTML:
 
 ### 无序列表
 
+演示示例：
+
 - 列表项目 1
   - 列表项目 1.1
   - 列表项目 1.2
 - 列表项目 2
+
+**Markdown**输入:
 
 ```markdown
 - 列表项目 1
@@ -74,6 +78,8 @@ HTML:
   - 列表项目 1.2
 - 列表项目 2
 ```
+
+**HTML**输出:
 
 ```html
 <ul>
@@ -88,13 +94,19 @@ HTML:
 
 ### 有序列表
 
+演示示例：
+
 1. 列表项目 1
 2. 列表项目 2
+
+**Markdown**输入：
 
 ```markdown
 1. 列表项目 1
 2. 列表项目 2
 ```
+
+**HTML**输出：
 
 ```html
 <ol>
@@ -105,12 +117,16 @@ HTML:
 
 ### 定义列表
 
+演示示例：
+
 Apple
 :   Pomaceous fruit of plants of the genus Malus in
     the family Rosaceae.
 
 Orange
 :   The fruit of an evergreen tree of the genus Citrus.
+
+**Markdown**输入：
 
 ```markdown
 Apple
@@ -120,6 +136,8 @@ Apple
 Orange
 :   The fruit of an evergreen tree of the genus Citrus.
 ```
+
+**HTML**输出：
 
 ```html
 <dl>
@@ -141,13 +159,19 @@ Orange
 !!! warn
     双下划线`__`不支持中文!
 
+演示示例：
+
 这是**强调文字**
+
+**Markdown**输入：
 
 ```markdown
 这是**强调文字**
 
 这不支持中文__强调文字__
 ```
+
+**HTML**输出：
 
 ```html
 这是<strong>强调文字</strong>
@@ -160,17 +184,23 @@ Orange
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+演示示例：
+
 <!-- markdownlint-disable MD036 -->
 *次强调文字， 斜体*
 
 _这也是次强调文字，斜体_
 <!-- markdownlint-enable MD036 -->
 
+**Markdown**输入：
+
 ```markdown
 *次强调文字， 斜体*
 
 _这也是次强调文字，斜体_
 ```
+
+**HTML**输出：
 
 ```html
 <em>次强调文字， 斜体</em>
@@ -183,11 +213,17 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+演示示例：
+
 ~~删除的文字~~
+
+**Markdown**输入：
 
 ```markdown
 ~~删除的文字~~
 ```
+
+**HTML**输出：
 
 ```html
 <del>删除的文字</del>
@@ -198,11 +234,17 @@ _这也是次强调文字，斜体_
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
 ++插入的文字++
+
+**Markdown**输入：
 
 ```markdown
 ++插入的文字++
 ```
+
+**HTML**输出：
 
 ```html
 <ins>插入的文字</ins>
@@ -213,11 +255,17 @@ _这也是次强调文字，斜体_
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
 混合的文本**强调和 _斜体_**.
+
+**Markdown**输入：
 
 ```markdown
 混合的文本**强调和 _斜体_**.
 ```
+
+**HTML**输出：
 
 ```html
 混合的文本<strong>强调和 <em>斜体</em></strong>.
@@ -228,9 +276,13 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+**Markdown**输入：
+
 ```markdown
 ***
 ```
+
+**HTML**输出：
 
 ```html
 <hr/>
@@ -241,15 +293,21 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+演示示例：
+
 此处有[链接](https://dookbook.info/)。
 
 此处有[链接](https://dookbook.info/ "Dookbook主页")。
+
+**Markdown**输入：
 
 ```markdown
 此处有[链接](https://dookbook.info/)。
 
 此处有[链接](https://dookbook.info/ "Dookbook主页")。
 ```
+
+**HTML**输出：
 
 ```html
 此处有<a href="https://dookbook.info/">链接</a>。
@@ -262,9 +320,13 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+**Markdown**输入：
+
 ```markdown
 ![替换文本](URL)
 ```
+
+**HTML**输出：
 
 ```html
 <img src="URL" alt="替换文本"/>
@@ -275,6 +337,8 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+演示示例：
+
 <!-- markdownlint-disable MD031 -->
 ```markdown
 ```markdown
@@ -283,9 +347,13 @@ _这也是次强调文字，斜体_
 ```
 <!-- markdownlint-enable MD031 -->
 
+**Markdown**输入：
+
 ```markdown
 `code here`
 ```
+
+**HTML**输出：
 
 ```html
 <code>code here</code>
@@ -300,10 +368,14 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+演示示例：
+
 | 名称 | 描述 | 热度 |
 | ------------- | --- | --- |
 | 帮助 | 显示帮助窗口。| 5 |
 | **关闭** | *关闭*一个`窗口` | 1000 |
+
+**Markdown**输入：
 
 ```markdown
 | 名称 | 描述 | 热度 |
@@ -315,6 +387,8 @@ _这也是次强调文字，斜体_
 
 <!-- 2. 最外层的"|"是可选的。你也可以使用Markdown的行内元素。-->
 ```
+
+**HTML**输出：
 
 ```html
 <table>
@@ -345,10 +419,14 @@ _这也是次强调文字，斜体_
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
 | 名称 | 描述 (居中) | 热度 (右对齐) |
 | ------------- | :---: | ---: |
 | 帮助 | 显示帮助窗口。| 5 |
 | **关闭** | *关闭*一个`窗口` | 1000 |
+
+**Markdown**输入：
 
 ```markdown
 <!-- 冒号可以用来对齐列：右对齐，居中 -->
@@ -358,6 +436,8 @@ _这也是次强调文字，斜体_
 | 帮助 | 显示帮助窗口。| 5 |
 | **关闭** | *关闭*一个`窗口` | 1000 |
 ```
+
+**HTML**输出：
 
 ```html
 <table>
@@ -388,10 +468,14 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+演示示例：
+
 As Kanye West said:
 
 > We're living the future so
 > the present is our past.
+
+**Markdown**输入：
 
 ```markdown
 As Kanye West said:
@@ -399,6 +483,8 @@ As Kanye West said:
 > We're living the future so
 > the present is our past.
 ```
+
+**HTML**输出：
 
 ```html
 <p>As Kanye West said:</p>
@@ -412,11 +498,15 @@ As Kanye West said:
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
 The HTML specification
 is maintained by the W3C.
 
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
+
+**Markdown**输入：
 
 ```markdown
 The HTML specification
@@ -425,6 +515,8 @@ is maintained by the W3C.
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
 ```
+
+**HTML**输出：
 
 ```html
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
@@ -436,9 +528,13 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
 ```python
 print ('Hello world')
 ``` // end
+
+**Markdown**输入：
 
 <!-- markdownlint-disable MD031 -->
 ```markdown
@@ -447,6 +543,8 @@ print ('Hello world')
 ``` // end
 ```
 <!-- markdownlint-enable MD031 -->
+
+**HTML**输出：
 
 ```html
 <pre><code>
@@ -459,12 +557,16 @@ print ('Hello world')
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+**Markdown**输入：
+
 ```markdown
 ## Attribute List {: #head-id}
 
 Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the **default**{: attrname="value" } bindings (keyboard shortcuts).
 {: #someid .someclass attrname='value' }
 ```
+
+**HTML**输出：
 
 ```html
 <h2 id="head-id">Attribute List</h2>
@@ -476,6 +578,17 @@ Windows lets you perform most tasks directly from the keyboard. This page lists 
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
+Footnotes have a label[^label1] and the footnote's content[^label2].
+
+[^label1]: A footnote on the label: "label1".
+[^label2]: A footnote on the label: "label2".
+
+///Footnotes Go Here///
+
+**Markdown**输入：
+
 ```markdown
 Footnotes have a label[^label1] and the footnote's content[^label2].
 
@@ -484,6 +597,8 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 
 ///Footnotes Go Here///
 ```
+
+**HTML**输出：
 
 ```html
 <p>Footnotes have a label<sup id="fnref:label1"><a class="footnote-ref" href="#fn:label1" rel="footnote">1</a></sup> and the footnote's content<sup id="fnref:label2"><a class="footnote-ref" href="#fn:label2" rel="footnote">2</a></sup>.</p>
@@ -506,6 +621,19 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
+!!! note
+    You should note that the title will be automatically capitalized.
+
+!!! danger "Don't try this at home"
+    You should note that the title will be automatically capitalized.
+
+!!! important ""
+    This is a admonition box without a title.
+
+**Markdown**输入：
+
 ```markdown
 !!! note
     You should note that the title will be automatically capitalized.
@@ -516,6 +644,8 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! important ""
     This is a admonition box without a title.
 ```
+
+**HTML**输出：
 
 ```html
 <div class="admonition note">
@@ -537,11 +667,17 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! warn "Dookbook Markdown"
     此为*Dookbook Markdown*语法。
 
+演示示例：
+
 2^10^=1024
+
+**Markdown**输入：
 
 ```markdown
 2^10^=1024
 ```
+
+**HTML**输出：
 
 ```html
 <p>2<sup>10</sup>=1024</p>
@@ -552,11 +688,17 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+演示示例：
+
 H~2~O = water
+
+**Markdown**输入：
 
 ```markdown
 H~2~O = water
 ```
+
+**HTML**输出：
 
 ```html
 <p>H<sub>2</sub>O = water</p>
