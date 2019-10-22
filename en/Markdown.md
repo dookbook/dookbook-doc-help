@@ -381,6 +381,84 @@ print ('Hello world')
 </code></pre>
 ```
 
+## Attribute List
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+## Attribute List {: #head-id}
+
+Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the **default**{: attrname="value" } bindings (keyboard shortcuts).
+{: #someid .someclass attrname='value' }
+```
+
+```html
+<h2 id="head-id">Attribute List</h2>
+<p attrname="value" class="someclass" id="someid">Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the <strong attrname="value">default</strong> bindings (keyboard shortcuts).</p>
+```
+
+## Footnote
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+Footnotes have a label[^label1] and the footnote's content[^label2].
+
+[^label1]: A footnote on the label: "label1".
+[^label2]: A footnote on the label: "label2".
+
+///Footnotes Go Here///
+```
+
+```html
+<p>Footnotes have a label<sup id="fnref:label1"><a class="footnote-ref" href="#fn:label1" rel="footnote">1</a></sup> and the footnote's content<sup id="fnref:label2"><a class="footnote-ref" href="#fn:label2" rel="footnote">2</a></sup>.</p>
+
+<div class="footnote">
+  <hr>
+  <ol>
+    <li id="fn:label1">
+      <p>A footnote on the label: "label1".&#160;<a class="footnote-backref" href="#fnref:label1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+    </li>
+    <li id="fn:label2">
+      <p>A footnote on the label: "label2".&#160;<a class="footnote-backref" href="#fnref:label2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+```
+
+## Admonition
+
+!!! warn "Dookbook Markdown"
+    This is the *Dookbook Markdown* syntax.
+
+```markdown
+!!! note
+    You should note that the title will be automatically capitalized.
+
+!!! danger "Don't try this at home"
+    You should note that the title will be automatically capitalized.
+
+!!! important ""
+    This is a admonition box without a title.
+```
+
+```html
+<div class="admonition note">
+  <p class="admonition-title">Note</p>
+  <p>You should note that the title will be automatically capitalized.</p>
+</div>
+
+<div class="admonition danger">
+  <p class="admonition-title">Don't try this at home</p>
+  <p>You should note that the title will be automatically capitalized.</p>
+</div>
+
+<div class="admonition important">
+<p>This is a admonition box without a title.</p>
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
