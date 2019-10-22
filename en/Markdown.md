@@ -19,6 +19,8 @@ Markdown language is created by *John Gruber* in 2004.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Markdown:
+
 ```markdown
 # Level-1 Heading
 
@@ -26,6 +28,8 @@ Markdown language is created by *John Gruber* in 2004.
 
 ### Level-3 Heading
 ```
+
+HTML:
 
 ```html
 <h1>Level-1 Heading</h1>
