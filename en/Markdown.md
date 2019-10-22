@@ -269,6 +269,14 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+<!-- markdownlint-disable MD031 -->
+```markdown
+```markdown
+`code here`
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
 ```markdown
 `code here`
 ```

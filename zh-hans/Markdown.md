@@ -267,6 +267,14 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+<!-- markdownlint-disable MD031 -->
+```markdown
+```markdown
+`code here`
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
 ```markdown
 `code here`
 ```
