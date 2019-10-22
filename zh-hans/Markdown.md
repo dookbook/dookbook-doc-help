@@ -686,7 +686,7 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 ## 下标
 
 !!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+    此为*Dookbook Markdown*语法。
 
 演示示例：
 
@@ -707,7 +707,7 @@ H~2~O = water
 ## 元数据
 
 !!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+    此为*Dookbook Markdown*语法。
 
 ```markdown
 TOPIC: python
@@ -716,6 +716,30 @@ AUTHORS: contributor; contributor@dookbook.info; github:dookbook;
 # Heading 1
 
 body text here
+```
+
+## Task List 任务清单
+
+!!! warn "GitHub Flavored Markdown"
+    此为*GitHub Flavored Markdown*语法。
+
+!!! error "语法不支持"
+    *Dookbook Markdown*暂时不支持该语法。
+
+演示示例：
+
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] 已完成
+- [x] 已完成
+- [ ] 未完成
+
+**Markdown**输入：
+
+```markdown
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] 已完成
+- [x] 已完成
+- [ ] 未完成
 ```
 
 ## 参考资料

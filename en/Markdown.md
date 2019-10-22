@@ -721,6 +721,30 @@ AUTHORS: contributor; contributor@dookbook.info; github:dookbook;
 body text here
 ```
 
+## Task List
+
+!!! warn "GitHub Flavored Markdown"
+    This is the *GitHub Flavored Markdown* syntax.
+
+!!! error "Unsupported Syntax"
+    *Dookbook Markdown* does **NOT** support for this syntax.
+
+Demo:
+
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] list syntax is required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+**Markdown** Input:
+
+```markdown
+- [x] @mentions, #refs, [links](URL), **formatting**, and ~~tags~~ are supported
+- [x] list syntax is required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
 ## References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
