@@ -44,11 +44,15 @@ HTML:
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Markdown:
+
 ```markdown
 Paragraph 1
 
 Paragraph 2
 ```
+
+HTML:
 
 ```html
 <p>Paragraph 1</p>

@@ -41,11 +41,15 @@ HTML:
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+Markdown:
+
 ```markdown
 段落1
 
 段落2
 ```
+
+HTML:
 
 ```html
 <p>段落1</p>
