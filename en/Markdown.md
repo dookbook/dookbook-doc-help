@@ -745,7 +745,7 @@ Demo:
 - [ ] this is an incomplete item
 ```
 
-### Keyboard Input
+## Keyboard Input
 
 Demo:
 
