@@ -19,6 +19,8 @@ Markdown language is created by *John Gruber* in 2004.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+**Markdown** Input:
+
 ```markdown
 # Level-1 Heading
 
@@ -26,6 +28,8 @@ Markdown language is created by *John Gruber* in 2004.
 
 ### Level-3 Heading
 ```
+
+**HTML** Output:
 
 ```html
 <h1>Level-1 Heading</h1>
@@ -40,11 +44,15 @@ Markdown language is created by *John Gruber* in 2004.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+**Markdown** Input:
+
 ```markdown
 Paragraph 1
 
 Paragraph 2
 ```
+
+**HTML** Output:
 
 ```html
 <p>Paragraph 1</p>
@@ -58,10 +66,14 @@ Paragraph 2
 
 ### Unordered List
 
+Demo:
+
 - Item 1
   - Item 1.1
   - Item 1.2
 - Item 2
+
+**Markdown** Input:
 
 ```markdown
 - Item 1
@@ -69,6 +81,8 @@ Paragraph 2
   - Item 1.2
 - Item 2
 ```
+
+**HTML** Output:
 
 ```html
 <ul>
@@ -83,13 +97,19 @@ Paragraph 2
 
 ### Ordered List
 
+Demo:
+
 1. Item 1
 2. Item 2
+
+**Markdown** Input:
 
 ```markdown
 1. Item 1
 2. Item 2
 ```
+
+**HTML** Output:
 
 ```html
 <ol>
@@ -100,12 +120,16 @@ Paragraph 2
 
 ### Definition List
 
+Demo:
+
 Apple
 :   Pomaceous fruit of plants of the genus Malus in
     the family Rosaceae.
 
 Orange
 :   The fruit of an evergreen tree of the genus Citrus.
+
+**Markdown** Input:
 
 ```markdown
 Apple
@@ -115,6 +139,8 @@ Apple
 Orange
 :   The fruit of an evergreen tree of the genus Citrus.
 ```
+
+**HTML** Output:
 
 ```html
 <dl>
@@ -133,15 +159,21 @@ Orange
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Demo:
+
 This text will be **bold**
 
 This will also be __bold__
+
+**Markdown** Input:
 
 ```markdown
 This text will be **bold**
 
 This will also be __bold__
 ```
+
+**HTML** Output:
 
 ```html
 This text will be <strong>bold</strong>
@@ -154,17 +186,23 @@ This will also be <strong>bold</strong>
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Demo:
+
 <!-- markdownlint-disable MD036 -->
 *This text will be italic*
 
 _This will also be italic_
 <!-- markdownlint-enable MD036 -->
 
+**Markdown** Input:
+
 ```markdown
 *This text will be italic*
 
 _This will also be italic_
 ```
+
+**HTML** Output:
 
 ```html
 <em>This text will be italic</em>
@@ -177,11 +215,17 @@ _This will also be italic_
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Demo:
+
 ~~Deleted Text~~
+
+**Markdown** Input:
 
 ```markdown
 ~~Deleted Text~~
 ```
+
+**HTML** Output:
 
 ```html
 <del>Deleted Text</del>
@@ -192,11 +236,17 @@ _This will also be italic_
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
 ++Inserted Text++
+
+**Markdown** Input:
 
 ```markdown
 ++Inserted Text++
 ```
+
+**HTML** Output:
 
 ```html
 <ins>Inserted Text</ins>
@@ -207,11 +257,17 @@ _This will also be italic_
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
 Combined emphasis with **asterisks and _underscores_**.
+
+**Markdown** Input:
 
 ```markdown
 Combined emphasis with **asterisks and _underscores_**.
 ```
+
+**HTML** Output:
 
 ```html
 Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
@@ -222,9 +278,13 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+**Markdown** Input:
+
 ```markdown
 ***
 ```
+
+**HTML** Output:
 
 ```html
 <hr/>
@@ -235,15 +295,21 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Demo:
+
 A [link](https://dookbook.info/) here.
 
 A [link](https://dookbook.info/ "Dookbook Homepage") here.
+
+**Markdown** Input:
 
 ```markdown
 A [link](https://dookbook.info/) here.
 
 A [link](https://dookbook.info/ "Dookbook Homepage") here.
 ```
+
+**HTML** Output:
 
 ```html
 A <a href="https://dookbook.info/">link</a> here.
@@ -256,9 +322,13 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+**Markdown** Input:
+
 ```markdown
 ![Alt Text](URL)
 ```
+
+**HTML** Output:
 
 ```html
 <img src="URL" alt="Alt Text"/>
@@ -269,6 +339,8 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Demo:
+
 <!-- markdownlint-disable MD031 -->
 ```markdown
 ```markdown
@@ -277,9 +349,13 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 ```
 <!-- markdownlint-enable MD031 -->
 
+**Markdown** Input:
+
 ```markdown
 `code here`
 ```
+
+**HTML** Output:
 
 ```html
 <code>code here</code>
@@ -294,10 +370,14 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Demo:
+
 | Name | Description | Hot |
 | ------------- | --- | --- |
 | Help | Display the help window.| 5 |
 | **Close** | *Closes* a `window` | 1000 |
+
+**Markdown** Input:
 
 ```markdown
 | Name | Description | Hot |
@@ -310,6 +390,8 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 <!-- 2. The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown. -->
 ```
+
+**HTML** Output:
 
 ```html
 <table>
@@ -340,10 +422,14 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
 | Name | Description (centered) | Hot (right-aligned) |
 | ------------- | :---: | ---: |
 | Help | Display the help window.| 5 |
 | **Close** | *Closes* a `window` | 1000 |
+
+**Markdown** Input:
 
 ```markdown
 <!-- Colons can be used to align columns: right-aligned, centered, and neat -->
@@ -353,6 +439,8 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 | Help | Display the help window.| 5 |
 | **Close** | *Closes* a `window` | 1000 |
 ```
+
+**HTML** Output:
 
 ```html
 <table>
@@ -383,10 +471,14 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+Demo:
+
 As Kanye West said:
 
 > We're living the future so
 > the present is our past.
+
+**Markdown** Input:
 
 ```markdown
 As Kanye West said:
@@ -394,6 +486,8 @@ As Kanye West said:
 > We're living the future so
 > the present is our past.
 ```
+
+**HTML** Output:
 
 ```html
 <p>As Kanye West said:</p>
@@ -407,11 +501,15 @@ As Kanye West said:
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
 The HTML specification
 is maintained by the W3C.
 
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
+
+**Markdown** Input:
 
 ```markdown
 The HTML specification
@@ -420,6 +518,8 @@ is maintained by the W3C.
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
 ```
+
+**HTML** Output:
 
 ```html
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
@@ -431,9 +531,13 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
 ```python
 print ('Hello world')
 ``` // end
+
+**Markdown** Input:
 
 <!-- markdownlint-disable MD031 -->
 ```markdown
@@ -442,6 +546,8 @@ print ('Hello world')
 ``` // end
 ```
 <!-- markdownlint-enable MD031 -->
+
+**HTML** Output:
 
 ```html
 <pre><code>
@@ -454,12 +560,16 @@ print ('Hello world')
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+**Markdown** Input:
+
 ```markdown
 ## Attribute List {: #head-id}
 
 Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the **default**{: attrname="value" } bindings (keyboard shortcuts).
 {: #someid .someclass attrname='value' }
 ```
+
+**HTML** Output:
 
 ```html
 <h2 id="head-id">Attribute List</h2>
@@ -471,6 +581,17 @@ Windows lets you perform most tasks directly from the keyboard. This page lists 
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
+Footnotes have a label[^label1] and the footnote's content[^label2].
+
+[^label1]: A footnote on the label: "label1".
+[^label2]: A footnote on the label: "label2".
+
+///Footnotes Go Here///
+
+**Markdown** Input:
+
 ```markdown
 Footnotes have a label[^label1] and the footnote's content[^label2].
 
@@ -479,6 +600,8 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 
 ///Footnotes Go Here///
 ```
+
+**HTML** Output:
 
 ```html
 <p>Footnotes have a label<sup id="fnref:label1"><a class="footnote-ref" href="#fn:label1" rel="footnote">1</a></sup> and the footnote's content<sup id="fnref:label2"><a class="footnote-ref" href="#fn:label2" rel="footnote">2</a></sup>.</p>
@@ -501,6 +624,19 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
+!!! note
+    You should note that the title will be automatically capitalized.
+
+!!! danger "Don't try this at home"
+    You should note that the title will be automatically capitalized.
+
+!!! important ""
+    This is a admonition box without a title.
+
+**Markdown** Input:
+
 ```markdown
 !!! note
     You should note that the title will be automatically capitalized.
@@ -511,6 +647,8 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! important ""
     This is a admonition box without a title.
 ```
+
+**HTML** Output:
 
 ```html
 <div class="admonition note">
@@ -532,11 +670,17 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
 2^10^=1024
+
+**Markdown** Input:
 
 ```markdown
 2^10^=1024
 ```
+
+**HTML** Output:
 
 ```html
 <p>2<sup>10</sup>=1024</p>
@@ -547,11 +691,17 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 !!! warn "Dookbook Markdown"
     This is the *Dookbook Markdown* syntax.
 
+Demo:
+
 H~2~O = water
+
+**Markdown** Input:
 
 ```markdown
 H~2~O = water
 ```
+
+**HTML** Output:
 
 ```html
 <p>H<sub>2</sub>O = water</p>
