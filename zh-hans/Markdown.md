@@ -380,6 +380,11 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
 ```markdown
 As Kanye West said:
 

@@ -383,6 +383,11 @@ raw Markdown line up prettily. You can also use inline Markdown. -->
 !!! info "Standard Markdown"
     This is the *standard Markdown* syntax.
 
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
 ```markdown
 As Kanye West said:
 
