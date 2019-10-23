@@ -647,7 +647,7 @@ class SomeClass:
 ... prompt'''
 ```
 
-### Markdown
+### Markdown <!-- markdownlint-disable MD024 -->
 
 ```markdown
 ## Heading 2
