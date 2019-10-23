@@ -610,6 +610,9 @@ body, .usertext {
 
 ### JavaScript
 
+!!! warn "Dookbook Markdown"
+    *Dookbook Markdown* supports for **ES6+**.
+
 ```javascript
 function $initHighlight(block, cls) {
   try {
