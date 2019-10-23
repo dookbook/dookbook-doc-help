@@ -555,6 +555,148 @@ print ('Hello world')
 </code></pre>
 ```
 
+!!! warn "Dookbook Markdown"
+    *Dookbook Markdown* supports for code syntax highlight for 9
+    languages: `HTML`/`XML`, `CSS`, `JavaScript`, `Python`, `Markdown`,
+    `Bash`, `INI`/`TOML`.
+
+### HTML
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+  <style>body {width: 500px;}</style>
+</head>
+<body>
+  <p checked class="title" id='title'>Title</p>
+  <!-- here goes the rest of the page -->
+
+  <script>
+    function $init() {return true;}
+  </script>
+</body>
+</html>
+```
+
+### XML
+
+```xml
+<xml>
+  <tag1 attr="value">tag-1 text</tag>
+</xml>
+```
+
+### CSS
+
+```css
+@font-face {
+  font-family: Chunkfive; src: url('Chunkfive.otf');
+}
+
+body, .usertext {
+  color: #F0F0F0; background: #600;
+  font-family: Chunkfive, sans;
+}
+
+@import url(print.css);
+@media print {
+  a[href^=http]::after {
+    content: attr(href)
+  }
+}
+```
+
+### JavaScript
+
+```javascript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+}
+
+export  $initHighlight;
+```
+
+### Python
+
+```python
+import sys
+
+print('hello')
+sys.exit()
+
+@requires_authorization
+def somefunc(param1='', param2=0):
+    r'''A docstring'''
+    if param1 > param2: # interesting
+        print 'Gre\'ater'
+    return (param2 - param1 + 1 + 0b10l) or None
+
+class SomeClass:
+    pass
+
+>>> message = '''interpreter
+... prompt'''
+```
+
+### Markdown
+
+```markdown
+## Heading 2
+
+### Heading 3
+
+A paragraph with a **strong** text and *italic* text.
+```
+
+### Bash
+
+```bash
+#!/bin/bash
+
+###### CONFIG
+ACCEPTED_HOSTS="/root/.hag_accepted.conf"
+BE_VERBOSE=false
+
+if [ "$UID" -ne 0 ]
+then
+ echo "Superuser rights required"
+ exit 2
+fi
+
+genApacheConf(){
+ echo -e "# Host ${HOME_DIR}$1/$2 :"
+}
+```
+
+### INI/TOML
+
+```toml
+; boilerplate
+[package]
+name = "some_name"
+authors = ["Author"]
+description = "This is \
+a description"
+
+[[lib]]
+name = ${NAME}
+default = True
+auto = no
+counter = 1_000
+```
+
 ## Attribute List
 
 !!! warn "Dookbook Markdown"
