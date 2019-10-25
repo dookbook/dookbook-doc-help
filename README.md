@@ -1,8 +1,8 @@
 # dookbook-doc-help
 
-Dookbook&reg; (Developers' Cookbook) Document Library (Help Documentation)
+Dookbook&reg; (Developers' Cookbook) Document Library (**Help** Documentation)
 
-开发者的日常菜谱 - 文档库帮助文档
+开发者的日常菜谱 - 文档库**帮助文档**
 
 ## Getting Started 快速入门
 
