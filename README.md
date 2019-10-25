@@ -1,8 +1,8 @@
 # dookbook-doc-help
 
-Dookbook&reg; (Developers' Cookbook) Document Library (Help Documentation)
+Dookbook&reg; (Developers' Cookbook) Document Library (**Help** Documentation)
 
-开发者的日常菜谱 - 文档库帮助文档
+开发者的日常菜谱 - 文档库**帮助文档**
 
 ## Getting Started 快速入门
 
@@ -17,7 +17,7 @@ Please refer to [about Dookbook&reg;](https://dookbook.info/about/)
 3. Add original (upstream) repo into your local git 增加上游仓库地址到你本地
 
 ```bash
-git remote add upstream https://github.com/dookbook/dookbook-doc-glossary.git
+git remote add upstream https://github.com/dookbook/dookbook-doc-help.git
 ```
 
 ### Synchronization with original (upstream) repo 与上游同步
