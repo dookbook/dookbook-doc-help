@@ -17,7 +17,7 @@ Please refer to [about Dookbook&reg;](https://dookbook.info/about/)
 3. Add original (upstream) repo into your local git 增加上游仓库地址到你本地
 
 ```bash
-git remote add upstream https://github.com/dookbook/dookbook-doc-glossary.git
+git remote add upstream https://github.com/dookbook/dookbook-doc-help.git
 ```
 
 ### Synchronization with original (upstream) repo 与上游同步
