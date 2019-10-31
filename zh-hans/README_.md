@@ -1,4 +1,4 @@
-TOPIC: readme
+TOPICS: readme
 
 # Dookbook帮助
 
