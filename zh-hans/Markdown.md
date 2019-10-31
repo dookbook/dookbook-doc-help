@@ -1,4 +1,4 @@
-TOPIC: markdown
+TOPICS: markdown
 
 # Markdown
 
