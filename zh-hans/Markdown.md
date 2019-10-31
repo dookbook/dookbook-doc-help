@@ -1,4 +1,4 @@
-TOPIC: markdown
+TOPICS: markdown
 
 # Markdown
 
@@ -768,42 +768,42 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 
 演示示例：
 
-!!! note
+!!! info
     You should note that the title will be automatically capitalized.
 
-!!! danger "Don't try this at home"
+!!! warn "Don't try this at home"
     You should note that the title will be automatically capitalized.
 
-!!! important ""
+!!! error ""
     This is a admonition box without a title.
 
 **Markdown**输入：
 
 ```markdown
-!!! note
+!!! info
     You should note that the title will be automatically capitalized.
 
-!!! danger "Don't try this at home"
+!!! warn "Don't try this at home"
     You should note that the title will be automatically capitalized.
 
-!!! important ""
+!!! error ""
     This is a admonition box without a title.
 ```
 
 **HTML**输出：
 
 ```html
-<div class="admonition note">
+<div class="admonition info">
   <p class="admonition-title">Note</p>
   <p>You should note that the title will be automatically capitalized.</p>
 </div>
 
-<div class="admonition danger">
+<div class="admonition warn">
   <p class="admonition-title">Don't try this at home</p>
   <p>You should note that the title will be automatically capitalized.</p>
 </div>
 
-<div class="admonition important">
+<div class="admonition error">
 <p>This is a admonition box without a title.</p>
 ```
 
