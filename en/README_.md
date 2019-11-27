@@ -59,7 +59,7 @@ more details please refer to [Dookbook Help - Markdown](https://dookbook.info/en
   `<Author name>; <author email address>; <account type>: <author account>`.
   For example: `Bob; bob@github.com; github:bob`
 - Please submit documents in both Chinese and English. Translation tools are available.
-  **Google Translation** is recommended.
+  **[Google Translation](https://translate.google.cn/)** is recommended.
 - External links referenced in the document should be from authoritative website whenever possible.
 - The document content is as concise as possible, giving priority to examples and avoiding lengthy terminology.
 - Use `**`, `*` appropriately to mark important text content.
