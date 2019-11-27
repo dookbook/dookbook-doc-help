@@ -54,6 +54,7 @@ more details please refer to [Dookbook Help - Markdown](https://dookbook.info/en
 - Both *Chinese* and *English* documents have **the same name** on the same subject.
 - The document must contain `TOPIC` or `TOPICS` metadata to describe the topic of the document and
   **must not** be the same as an existing topic.
+- Do not include acronyms in `TOPIC`/`TOPICS` , please use the full name.
 - If the submitter of the document content is not the original author, please use the `AUTHORS`
   metadata to indicate that each author occupies one line. Format:
   `<Author name>; <author email address>; <account type>: <author account>`.
