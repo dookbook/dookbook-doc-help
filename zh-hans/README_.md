@@ -11,8 +11,7 @@ Dookbook&reg; (Developers' Cookbook) 开发者的日常菜谱 - 文档库帮助�
 ## 前期准备
 
 1. 克隆仓库
-2. 打开并安装[GitHub App](https://github.com/apps/dookbook)
-3. 增加上游仓库地址到你本地
+2. 增加上游仓库地址到你本地
 
 !!! info "小贴士"
     应该替换`<repo-name>`为真实的文档仓库名称。

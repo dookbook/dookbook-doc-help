@@ -11,8 +11,7 @@ Please refer to [about Dookbook&reg;](https://dookbook.info/about/)
 ## Preparation in advance
 
 1. Clone this repo
-2. Open and install [GitHub App](https://github.com/apps/dookbook).
-3. Add original (upstream) repo into your local git.
+2. Add original (upstream) repo into your local git.
 
 !!! info "Tips"
     `<repo-name>` should be replaced by the real repo name.
