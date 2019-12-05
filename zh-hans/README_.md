@@ -55,10 +55,15 @@ git push
 - 文档中必须包含`TOPIC`或者`TOPICS`元数据，用以说明文档主题，且**不能**与已存在的主题相同。
 - `TOPIC`/`TOPICS`中不要含有缩略语，请使用全称。
 - 如果文档内容提交者不是原作者，请用`AUTHORS`元数据注明，每个作者占用一行。格式:
-  `<作者名称>; <作者邮箱地址>; <账户类别>:<作者账号>`,
+  `AUTHORS: <作者名称>; <作者邮箱地址>; <账户类别>:<作者账号>`，
   例如：`Bob; bob@github.com; github:bob`
 - 请同时提交中英文两种语言的文档，可使用翻译工具，建议使用[Google翻译](https://translate.google.cn/)。
 - 文档中引用的外部链接，尽可能使用权威网站来源。
 - 文档内容尽可能精简，优先示例，避免长篇累牍的术语介绍。
 - 合理使用`**`, `*`来标注重要的文本内容。
 - 尽可能使用**Wikilink**或**站内链接**来关联系统已存在的术语。
+- 如文档中有插图，请将图片放至`images`目录下，随文档一并提交。文档中引用图片地址格式：
+  `![图片的替代文字](/media/<主题名称>__<图片文件名>)`，例如：假设图片文件名为`anatomy-of-an-html-element.png`,
+  那文档中引用图片的格式为`![Anatomy of an HTML element](/media/glossary__anatomy-of-an-html-element.png)`
+- 如果文档中存在缩略语，请在文档开头处注明元数据`ABBR`，每个缩略语占用一行。格式：
+  `ABBR: <缩略语> = <全称>`，例如：`ABBR: HTML = HyperText Markup Language`
