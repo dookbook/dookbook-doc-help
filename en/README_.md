@@ -65,3 +65,7 @@ more details please refer to [Dookbook Help - Markdown](https://dookbook.info/en
 - The document content is as concise as possible, giving priority to examples and avoiding lengthy terminology.
 - Use `**`, `*` appropriately to mark important text content.
 - Wherever possible, use **Wikilink** or **internal links** to correlate existing terms in the system.
+- If there is an **illustration** (*images*) in the document, please put the image in the `images`
+  directory and submit it with the document. Format of reference image address in the document:
+  `![image alt text](/media/<subject-name>__<image-file-name>)`.
+  For example: `![Anatomy of an HTML element](/media/glossary__anatomy-of-an-html-element.png)`

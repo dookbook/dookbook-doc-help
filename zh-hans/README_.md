@@ -62,3 +62,6 @@ git push
 - 文档内容尽可能精简，优先示例，避免长篇累牍的术语介绍。
 - 合理使用`**`, `*`来标注重要的文本内容。
 - 尽可能使用**Wikilink**或**站内链接**来关联系统已存在的术语。
+- 如文档中有插图，请将图片放至`images`目录下，随文档一并提交。文档中引用图片地址格式：
+  `![图片的替代文字](/media/<主题名称>__<图片文件名>)`，例如：假设图片文件名为`anatomy-of-an-html-element.png`,
+  那文档中引用图片的格式为`![Anatomy of an HTML element](/media/glossary__anatomy-of-an-html-element.png)`
