@@ -1019,6 +1019,32 @@ $$
 $$
 ```
 
+### 微积分
+
+$$
+\int f(x)dx
+$$
+
+**Markdown**输入:
+
+```markdown
+$$
+\int f(x)dx
+$$
+```
+
+$$
+\int_{a}^{b}f(x)dx
+$$
+
+**Markdown**输入:
+
+```markdown
+$$
+\int_{a}^{b}f(x)dx
+$$
+```
+
 ### LaTex Notation
 
 ![LaTex Notation](/media/help__latex-notation.png)

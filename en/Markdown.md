@@ -1020,6 +1020,33 @@ $$
 $$
 \lim\limits_{x\rightarrow\infty}\frac{1}{x}
 $$
+```
+
+### Calculus
+
+$$
+\int f(x)dx
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+\int f(x)dx
+$$
+```
+
+$$
+\int_{a}^{b}f(x)dx
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+\int_{a}^{b}f(x)dx
+$$
+```
 
 ### LaTex Notation
 
