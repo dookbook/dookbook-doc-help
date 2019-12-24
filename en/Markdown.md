@@ -817,12 +817,12 @@ Demo:
 
 Demo:
 
-2^^10^^=1024
+2%10%=1024
 
 **Markdown** Input:
 
 ```markdown
-2^^10^^=1024
+2%10%=1024
 ```
 
 **HTML** Output:
@@ -912,15 +912,21 @@ Demo:
 
 Inline:
 
+$x = a + b - c \pm d * e / f$
+
 ```markdown
-$...$
+$x = a + b - c \pm d * e / f$
 ```
 
 Block:
 
+$$
+x = a + b - c \pm d * e / f
+$$
+
 ```markdown
 $$
-...
+x = a + b - c \pm d * e / f
 $$
 ```
 
