@@ -969,14 +969,14 @@ $$
 ### Superscript
 
 $$
-x = a^{2} + {b}^{2 + c_0}
+x = {a^2} + {b^{2 + c_0}}
 $$
 
 **Markdown** Input:
 
 ```markdown
 $$
-x = a^{2} + {b}^{2 + c_0}
+x = {a^2} + {b^{2 + c_0}}
 $$
 ```
 
