@@ -1008,6 +1008,19 @@ $$
 $$
 ```
 
+### Limits
+
+$$
+\lim\limits_{x\rightarrow\infty}\frac{1}{x}
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+\lim\limits_{x\rightarrow\infty}\frac{1}{x}
+$$
+
 ### LaTex Notation
 
 ![LaTex Notation](/media/help__latex-notation.png)
