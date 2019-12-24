@@ -912,10 +912,10 @@ Demo:
 
 Inline:
 
-$x = a + b - c \pm d * e / f$
+\(x = a + b - c \pm d * e / f\)
 
 ```markdown
-$x = a + b - c \pm d * e / f$
+\(x = a + b - c \pm d * e / f\)
 ```
 
 Block:
