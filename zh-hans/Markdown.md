@@ -905,6 +905,110 @@ body text here
 <kbd>Ctrl</kbd> + <kbd>C</kbd>
 ```
 
+## 数学 - TeX/LaTex数学公式
+
+Inline:
+
+```markdown
+$...$
+```
+
+Block:
+
+```markdown
+$$
+...
+$$
+```
+
+### `+`, `-`, `*`, `/`, `=`
+
+$$
+x = a + b - c \pm d * e / f
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+x = a + b - c \pm d * e / f
+$$
+```
+
+### `frac`
+
+$$
+x = \frac{a}{b + c} + d
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+x = \frac{a}{b + c} + d
+$$
+```
+
+### Subscript
+
+$$
+x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}
+$$
+```
+
+### Superscript
+
+$$
+x = a^2+b^{2+c_0}
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+x = a^2+b^{2+c_0}
+$$
+```
+
+### `sqrt`
+
+$$
+-b \pm \sqrt{b^2 - 4ac} \over 2a
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+-b \pm \sqrt{b^2 - 4ac} \over 2a
+$$
+```
+
+### Set
+
+$$
+\forall x \in X, \quad \exists y \leq \epsilon
+$$
+
+**Markdown** Input:
+
+```markdown
+$$
+\forall x \in X, \quad \exists y \leq \epsilon
+$$
+```
+
+### LaTex Notation
+
+![LaTex Notation](/media/help__latex-notation.png)
+
 ## 参考资料
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
