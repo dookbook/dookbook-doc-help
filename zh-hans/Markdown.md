@@ -814,12 +814,12 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 
 演示示例：
 
-2^10^=1024
+2^^10^^=1024
 
 **Markdown**输入：
 
 ```markdown
-2^10^=1024
+2^^10^^=1024
 ```
 
 **HTML**输出：
@@ -966,14 +966,14 @@ $$
 ### 上标或指数
 
 $$
-x = {a^2} + {b^{2 + c_0}}
+x = a^2 + b^{2 + c_0}
 $$
 
 **Markdown**输入:
 
 ```markdown
 $$
-x = {a^2} + {b^{2 + c_0}}
+x = a^2 + b^{2 + c_0}
 $$
 ```
 
