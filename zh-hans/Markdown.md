@@ -814,12 +814,12 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 
 演示示例：
 
-2%10%=1024
+2^^10^^=1024
 
 **Markdown**输入：
 
 ```markdown
-2%10%=1024
+2^^10^^=1024
 ```
 
 **HTML**输出：
@@ -909,10 +909,10 @@ body text here
 
 行内:
 
-\(x = a + b - c \pm d * e / f\)
+\\(x = a + b - c \pm d * e / f\\)
 
 ```markdown
-\(x = a + b - c \pm d * e / f\)
+\\(x = a + b - c \pm d * e / f\\)
 ```
 
 块级:
