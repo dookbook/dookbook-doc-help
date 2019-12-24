@@ -817,12 +817,12 @@ Demo:
 
 Demo:
 
-2^10^=1024
+2^^10^^=1024
 
 **Markdown** Input:
 
 ```markdown
-2^10^=1024
+2^^10^^=1024
 ```
 
 **HTML** Output:
@@ -969,14 +969,14 @@ $$
 ### Superscript
 
 $$
-x = {a^2} + {b^{2 + c_0}}
+x = a^2 + b^{2 + c_0}
 $$
 
 **Markdown** Input:
 
 ```markdown
 $$
-x = {a^2} + {b^{2 + c_0}}
+x = a^2 + b^{2 + c_0}
 $$
 ```
 
