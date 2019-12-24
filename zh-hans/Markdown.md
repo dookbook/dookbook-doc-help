@@ -907,13 +907,13 @@ body text here
 
 ## 数学 - TeX/LaTex数学公式
 
-Inline:
+行内:
 
 ```markdown
 $...$
 ```
 
-Block:
+块级:
 
 ```markdown
 $$
@@ -927,7 +927,7 @@ $$
 x = a + b - c \pm d * e / f
 $$
 
-**Markdown** Input:
+**Markdown**输入:
 
 ```markdown
 $$
@@ -941,7 +941,7 @@ $$
 x = \frac{a}{b + c} + d
 $$
 
-**Markdown** Input:
+**Markdown**输入:
 
 ```markdown
 $$
@@ -949,13 +949,13 @@ x = \frac{a}{b + c} + d
 $$
 ```
 
-### Subscript
+### 下标
 
 $$
 x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}
 $$
 
-**Markdown** Input:
+**Markdown**输入:
 
 ```markdown
 $$
@@ -963,13 +963,13 @@ x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}
 $$
 ```
 
-### Superscript
+### 上标或指数
 
 $$
 x = a^2+b^{2+c_0}
 $$
 
-**Markdown** Input:
+**Markdown**输入:
 
 ```markdown
 $$
@@ -977,13 +977,13 @@ x = a^2+b^{2+c_0}
 $$
 ```
 
-### `sqrt`
+### 方根
 
 $$
 -b \pm \sqrt{b^2 - 4ac} \over 2a
 $$
 
-**Markdown** Input:
+**Markdown**输入:
 
 ```markdown
 $$
@@ -991,17 +991,31 @@ $$
 $$
 ```
 
-### Set
+### 集合
 
 $$
 \forall x \in X, \quad \exists y \leq \epsilon
 $$
 
-**Markdown** Input:
+**Markdown**输入:
 
 ```markdown
 $$
 \forall x \in X, \quad \exists y \leq \epsilon
+$$
+```
+
+### 极限
+
+$$
+\lim\limits_{x\rightarrow\infty}\frac{1}{x}
+$$
+
+**Markdown**输入:
+
+```markdown
+$$
+\lim\limits_{x\rightarrow\infty}\frac{1}{x}
 $$
 ```
 
