@@ -909,15 +909,21 @@ body text here
 
 行内:
 
+\(x = a + b - c \pm d * e / f\)
+
 ```markdown
-$...$
+\(x = a + b - c \pm d * e / f\)
 ```
 
 块级:
 
+$$
+x = a + b - c \pm d * e / f
+$$
+
 ```markdown
 $$
-...
+x = a + b - c \pm d * e / f
 $$
 ```
 
