@@ -335,28 +335,22 @@ _这也是次强调文字，斜体_
 ## 行内代码
 
 !!! info "标准Markdown"
-    此为*标准Markdown*语法。
+    此为*标准Markdown*语法。使用反引号(`` ` ``)。
 
 !!! error "Markdown Lint"
     不允许代码块的前后包含空格，像：
     `` ` some text ` ``, `` `some text ` ``, `` ` some text` ``。
-    正确的写法是，移除前后空格：`` `some text` `。
+    正确的写法是，移除前后空格：`` `some text` ``。
 
 演示示例：
 
-```markdown
 `code here`
-```
 
 **Markdown**输入：
 
-<!-- markdownlint-disable MD031 -->
-```markdown
 ```markdown
 `code here`
-``` // end
 ```
-<!-- markdownlint-enable MD031 -->
 
 **HTML**输出：
 
@@ -364,43 +358,25 @@ _这也是次强调文字，斜体_
 <code>code here</code>
 ```
 
-### 嵌套反引号 `` ` ``
+### 嵌套反引号 (`` ` ``)
 
-!!! error "反斜线`\`转义失效"
-    反斜线`\`转义在嵌套的反引号`` ` ``这里失效。
+!!! error "反斜线(`\`)转义失效"
+    反斜线(`\`)转义在嵌套的反引号(`` ` ``)这里失效。
 
 Demo:
 
-```markdown
-`` `code here``
-
-``code here` ``
-
-`` ` ``
-```
+`` `code here``, ``code here` ``, `` ` ``
 
 **Markdown**输入:
 
-<!-- markdownlint-disable MD031 -->
 ```markdown
-```markdown
-`` `code here``
-
-``code here` ``
-
-`` ` ``
-``` // 代码结束
+`` `code here``, ``code here` ``, `` ` ``
 ```
-<!-- markdownlint-enable MD031 -->
 
 **HTML**输出:
 
 ```html
-<code>`code here</code>
-
-<code>code here`</code>
-
-<code>`</code>
+<code>`code here</code>, <code>code here`</code>, <code>`</code>
 ```
 
 ## 表格
@@ -568,13 +544,13 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ## 代码段
 
 !!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+    此为*Dookbook Markdown*语法。使用三个反引号(`` ``` ``)
 
 演示示例：
 
 ```python
 print ('Hello world')
-``` // end
+```
 
 **Markdown**输入：
 
@@ -589,7 +565,7 @@ print ('Hello world')
 **HTML**输出：
 
 ```html
-<pre><code>
+<pre><code class="python">
 print ('Hello world')
 </code></pre>
 ```
