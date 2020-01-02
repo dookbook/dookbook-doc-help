@@ -337,7 +337,7 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 ## Inline Code
 
 !!! info "Standard Markdown"
-    This is the *standard Markdown* syntax. Using backticks: `` ` ``.
+    This is the *standard Markdown* syntax. Using backticks (`` ` ``).
 
 !!! error "Markdown Lint"
     Spaces inside code span elements are not allowed:
@@ -346,19 +346,13 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 
 Demo:
 
-```markdown
 `code here`
-```
 
 **Markdown** Input:
 
-<!-- markdownlint-disable MD031 -->
-```markdown
 ```markdown
 `code here`
-``` // end
 ```
-<!-- markdownlint-enable MD031 -->
 
 **HTML** Output:
 
@@ -366,43 +360,25 @@ Demo:
 <code>code here</code>
 ```
 
-### Embedded Backtick `` ` ``
+### Embedded Backtick (`` ` ``)
 
-!!! error "`\` Not Working"
-    `\` is not working when handling embedded backtick `` ` ``.
+!!! error "Backslash (`\`) Not Working"
+    Backslash (`\`) is not working when handling embedded backtick (`` ` ``).
 
 Demo:
 
-```markdown
-`` `code here``
-
-``code here` ``
-
-`` ` ``
-```
+`` `code here``, ``code here` ``, `` ` ``
 
 **Markdown** Input:
 
-<!-- markdownlint-disable MD031 -->
 ```markdown
-```markdown
-`` `code here``
-
-``code here` ``
-
-`` ` ``
-``` // end
+`` `code here``, ``code here` ``, `` ` ``
 ```
-<!-- markdownlint-enable MD031 -->
 
 **HTML** Output:
 
 ```html
-<code>`code here</code>
-
-<code>code here`</code>
-
-<code>`</code>
+<code>`code here</code>, <code>code here`</code>, <code>`</code>
 ```
 
 ## Table
@@ -571,13 +547,13 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ## Code Block
 
 !!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+    This is the *Dookbook Markdown* syntax. Using backtick (`` ``` ``)
 
 Demo:
 
 ```python
 print ('Hello world')
-``` // end
+```
 
 **Markdown** Input:
 
@@ -592,7 +568,7 @@ print ('Hello world')
 **HTML** Output:
 
 ```html
-<pre><code>
+<pre><code class="python">
 print ('Hello world')
 </code></pre>
 ```
