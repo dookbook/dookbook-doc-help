@@ -337,7 +337,18 @@ _这也是次强调文字，斜体_
 !!! info "标准Markdown"
     此为*标准Markdown*语法。
 
+!!! error "Markdown Lint"
+    不允许代码块的前后包含空格，像：
+    `` ` some text ` ``, `` `some text ` ``, `` ` some text` ``。
+    正确的写法是，移除前后空格：`` `some text` `。
+
 演示示例：
+
+```markdown
+`code here`
+```
+
+**Markdown**输入：
 
 <!-- markdownlint-disable MD031 -->
 ```markdown
@@ -347,18 +358,49 @@ _这也是次强调文字，斜体_
 ```
 <!-- markdownlint-enable MD031 -->
 
-**Markdown**输入：
-
-```markdown
-`code here`
-```
-
 **HTML**输出：
 
 ```html
 <code>code here</code>
+```
 
-<value>code here</value>
+### 嵌套反引号 `` ` ``
+
+!!! error "反斜线`\`转义失效"
+    反斜线`\`转义在嵌套的反引号`` ` ``这里失效。
+
+Demo:
+
+```markdown
+`` `code here``
+
+``code here` ``
+
+`` ` ``
+```
+
+**Markdown**输入:
+
+<!-- markdownlint-disable MD031 -->
+```markdown
+```markdown
+`` `code here``
+
+``code here` ``
+
+`` ` ``
+``` // 代码结束
+```
+<!-- markdownlint-enable MD031 -->
+
+**HTML**输出:
+
+```html
+<code>`code here</code>
+
+<code>code here`</code>
+
+<code>`</code>
 ```
 
 ## 表格

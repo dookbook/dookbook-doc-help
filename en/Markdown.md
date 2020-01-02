@@ -337,9 +337,20 @@ A <a href="https://dookbook.info/" title="Dookbook Homepage">link</a> here.
 ## Inline Code
 
 !!! info "Standard Markdown"
-    This is the *standard Markdown* syntax.
+    This is the *standard Markdown* syntax. Using backticks: `` ` ``.
+
+!!! error "Markdown Lint"
+    Spaces inside code span elements are not allowed:
+    `` ` some text ` ``, `` `some text ` ``, `` ` some text` ``.
+    To fix this, remove the spaces inside the code span markers: `` `some text` ``.
 
 Demo:
+
+```markdown
+`code here`
+```
+
+**Markdown** Input:
 
 <!-- markdownlint-disable MD031 -->
 ```markdown
@@ -349,18 +360,49 @@ Demo:
 ```
 <!-- markdownlint-enable MD031 -->
 
-**Markdown** Input:
-
-```markdown
-`code here`
-```
-
 **HTML** Output:
 
 ```html
 <code>code here</code>
+```
 
-<value>code here</value>
+### Embedded Backtick `` ` ``
+
+!!! error "`\` Not Working"
+    `\` is not working when handling embedded backtick `` ` ``.
+
+Demo:
+
+```markdown
+`` `code here``
+
+``code here` ``
+
+`` ` ``
+```
+
+**Markdown** Input:
+
+<!-- markdownlint-disable MD031 -->
+```markdown
+```markdown
+`` `code here``
+
+``code here` ``
+
+`` ` ``
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
+**HTML** Output:
+
+```html
+<code>`code here</code>
+
+<code>code here`</code>
+
+<code>`</code>
 ```
 
 ## Table
